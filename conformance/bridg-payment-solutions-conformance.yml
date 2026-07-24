@@ -1,0 +1,21 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.bridgtheapp.com/
+note: >-
+  Bridg publishes no OpenAPI or public developer surface. Compliance posture below is
+  asserted only from published compliance badges on the marketing site, not from a
+  dedicated trust center or certification page. No Compliance pointer is emitted because
+  no verifiable compliance-program page is published.
+standards:
+- id: pci-dss
+  conforms: true
+  evidence: PCI DSS compliance badge published on https://www.bridgtheapp.com/
+- id: visa-compliance
+  conforms: true
+  evidence: Visa compliance badge published on https://www.bridgtheapp.com/
+- id: oauth2
+  conforms: false
+  evidence: no public OpenAPI or documented OAuth surface
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public API to assert error format

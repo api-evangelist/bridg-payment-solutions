@@ -1,9 +1,27 @@
 aid: bridg-payment-solutions
 name: Bridg Payment Solutions
-description: Bridg Payment Solutions is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Bridg Payment Solutions Ltd. is a Dubai-based fintech founded in 2013 by Moussa Beidas and
+  Nadim Jarudi. Its patent-pending OneConnect technology turns any smartphone into a point-of-sale terminal
+  and mobile wallet, using Bluetooth to let two phones exchange card payments even when only one (or neither)
+  has an internet connection by treating the devices as a network of offline ledgers. Bridg targets delivery
+  drivers, in-flight retail on low-cost carriers, and merchants who need to accept debit and credit card
+  payments without dedicated hardware, and offers the product white-labeled to merchants and payment partners.
+  The company advertises PCI DSS and Visa compliance and is backed by 500 Global, TURN8, MetLife Foundation,
+  Village Capital, and the European Commission. This profile was enriched from the public marketing site;
+  Bridg publishes no public API, developer portal, or SDK at this time.
 url: https://raw.githubusercontent.com/api-evangelist/bridg-payment-solutions/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: http://static1.squarespace.com/static/5481aaaae4b053bc20ccb68a/t/5e2c2250f56f3a54b4a32329/1579950675674/bridg+logo-01.jpg?format=1500w
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Payments
+- Fintech
+- Mobile Payments
+- Point of Sale
+- Bluetooth
+- Offline Payments
+- Digital Wallet
+- UAE
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +49,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://bridgtheapp.com
+  url: https://www.bridgtheapp.com
+- type: Blog
+  url: https://www.bridgtheapp.com/bridg-blog
+- type: PrivacyPolicy
+  url: https://www.bridgtheapp.com/privacy
+- type: Conformance
+  url: conformance/bridg-payment-solutions-conformance.yml
+- type: DomainSecurity
+  url: security/bridg-payment-solutions-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
