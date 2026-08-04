@@ -2,6 +2,13 @@
   "repo": "bridg-payment-solutions",
   "feeds": [
     {
+      "source": "https://www.bridgtheapp.com/home?format=rss",
+      "feed_url": "https://www.bridgtheapp.com/home?format=rss",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://www.bridgtheapp.com",
       "feed_url": "https://www.bridgtheapp.com/home?format=rss",
       "title": "",
@@ -10,5 +17,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-07-20T13:31:34Z"
+  "fetched": "2026-08-01T15:49:00Z"
 }
