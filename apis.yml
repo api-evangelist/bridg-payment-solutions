@@ -10,6 +10,17 @@ description: Bridg Payment Solutions Ltd. is a Dubai-based fintech founded in 20
   Village Capital, and the European Commission. This profile was enriched from the public marketing site;
   Bridg publishes no public API, developer portal, or SDK at this time.
 url: https://raw.githubusercontent.com/api-evangelist/bridg-payment-solutions/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
